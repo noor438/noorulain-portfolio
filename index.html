@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+     <header class="navbar">
+    <a href="#home" class="logo">Noor.</a>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li class="nav-cta"><a href="#contact">Let's Talk</a></li>
+      </ul>
+    </nav>
+
+    <a href="#contact" class="btn btn-dark">Let's Talk</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <!-- HERO -->
+    <section class="hero" id="home">
+    <span class="badge">Computer Science Graduate</span>
+    <h1>I'm <span class="orange">Noor ul Ain</span></h1>
+    <p class="role">Front-End Developer · HTML, CSS, JavaScript & Python</p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-orange">View Projects</a>
+      <a href="#contact" class="btn btn-light">Hire Me</a>
+    </div>
+
+    <img src="hero.png" alt="Noor ul Ain" class="hero-img" />
+  </section>
+
+    <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee-track">
+     <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Django</span><span>Databases</span>
+<span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Django</span><span>Databases</span>
+    </div>
+  </div>
+
+      <!-- SERVICES -->
+  <section class="services" id="services">
+    <p class="section-label">● What I Offer</p>
+    <h2>What I <span class="orange">Do</span></h2>
+
+    <div class="accordion">
+
+      <div class="acc-item active">
+        <button class="acc-header">
+          <span class="acc-title"><em>01</em> Front-End Web Development</span>
+          <span class="acc-icon">+</span>
+        </button>
+        <div class="acc-body">
+          <p>Building clean, responsive websites that look good on every screen.</p>
+          <div class="tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="acc-item">
+        <button class="acc-header">
+          <span class="acc-title"><em>02</em> Python & Django Development</span>
+          <span class="acc-icon">+</span>
+        </button>
+        <div class="acc-body">
+          <p>Developing web applications and back-end logic with Python and Django.</p>
+          <div class="tech">
+            <span>Python</span><span>Django</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="acc-item">
+        <button class="acc-header">
+          <span class="acc-title"><em>03</em> Database Management</span>
+          <span class="acc-icon">+</span>
+        </button>
+        <div class="acc-body">
+          <p>Designing and managing databases that store and organise application data.</p>
+          <div class="tech">
+            <span>SQL</span><span>Database Design</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="acc-item">
+        <button class="acc-header">
+          <span class="acc-title"><em>04</em> Face Recognition Systems</span>
+          <span class="acc-icon">+</span>
+        </button>
+        <div class="acc-body">
+          <p>Building computer vision projects, like my attendance system that recognises faces.</p>
+          <div class="tech">
+            <span>OpenCV</span><span>Dlib</span><span>Python</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+       <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <p class="section-label">● My Work</p>
+    <h2>Featured <span class="orange">Projects</span></h2>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-img">
+          <span class="project-emoji">🧑‍💻</span>
+        </div>
+        <h3>Attendance System Using Face Recognition</h3>
+        <p>Marks attendance automatically by recognising faces, with a web front-end and a database. My final year project.</p>
+        <div class="tech">
+          <span>Python</span><span>Django</span><span>OpenCV</span><span>Dlib</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-img">
+          <span class="project-emoji">🌐</span>
+        </div>
+        <h3>Personal Portfolio Website</h3>
+        <p>This responsive portfolio, built from scratch with a sticky navbar, animated sections and a mobile menu.</p>
+        <div class="tech">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="project-actions">
+          <a href="https://comfy-clafoutis-58168b.netlify.app" target="_blank" class="project-link">Live Demo →</a>
+        </div>
+      </article>
+
+      <article class="project-card project-soon">
+        <div class="project-img">
+          <span class="project-emoji">🚧</span>
+        </div>
+        <h3>More Projects Coming Soon</h3>
+        <p>I'm currently building new web projects. Check back soon.</p>
+      </article>
+
+    </div>
+  </section>
+    <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <img src="hero.png" alt="Noor ul Ain" class="about-img" />
+      <div class="about-text">
+        <p class="section-label">● About Me</p>
+        <h2>Who is <span class="orange">Noor ul Ain?</span></h2>
+        <p>
+          I'm a Computer Science graduate who enjoys building websites and
+          software. I work with HTML, CSS, JavaScript and Python, and I love
+          turning ideas into working projects.
+        </p>
+        <ul class="about-list">
+          <li><strong>Education:</strong> BS Computer Science, Air University Islamabad</li>
+          <li><strong>Languages:</strong> English, Urdu, Punjabi</li>
+          <li><strong>Skills:</strong> Web Development, Python, Django, Databases, MS Office</li>
+        </ul>
+        <a href="Noor CV (Final).pdf" class="btn btn-orange" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+
+    <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Let's <span class="orange">Work Together</span></h2>
+    <p>Have a project or an opportunity in mind? Get in touch.</p>
+    <div class="contact-links">
+      <a href="mailto:your-email@gmail.com" class="btn btn-orange">Email Me</a>
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="btn btn-light">LinkedIn</a>
+      <a href="https://github.com/your-username" target="_blank" class="btn btn-light">GitHub</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Noor ul Ain. All rights reserved.</p>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
